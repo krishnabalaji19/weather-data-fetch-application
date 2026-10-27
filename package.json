@@ -1,0 +1,17 @@
+{
+  "name": "weather-data-fetch",
+  "version": "1.0.0",
+  "description": "Express app that fetches and displays current weather data from the OpenWeather API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.2.1"
+  }
+}
